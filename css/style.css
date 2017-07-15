@@ -14,20 +14,39 @@ body{
 .header{
 	background-color: #ECF1E9;
 	height: auto;
+	padding: 20px 60px 20px 60px;
+}
+.logostyle{
+	position: absolute;
+	top: -25px;
+	z-index: 5;
+	right: -20px;
 }
 
 .nav{
-	padding-top: 30px;
-	padding-bottom: 25px;
-	margin: 0;
+	/*padding-top: 10px;*/
+	padding: 0;
+	margin:0;
 }
 .navbar-default{
 	background-color: #ECF1E9;
 	border-color: #ECF1E9;
 }
-.navbar-nav a{
+.navbar-nav .active{
+	color: blue;
+	background-color: green;
+}
+.navbar-nav li a{
 	color: #696969;
-	font-size: 12px;
+	font-size: 14px;
+	height: 50px;
+	padding-right: 1px;
+}
+#slider{
+	margin-left: 8px;
+	margin-right: 22px;
+	top: -15px;
+
 }
 .main_content{
 	height: auto;
@@ -130,5 +149,11 @@ body{
 	float: left;
 	list-style-type: none;
 	padding-right: 20px;
+	
+}
+.footer ul li a{
 	color: white;
+}
+.footer ul li a:hover{
+	text-decoration: none;
 }
