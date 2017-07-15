@@ -1,4 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Aclonica');
+@font-face {
+    src: url('encodesans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    src: url('fontsencodesans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    src: url('fonts/encodesans-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
 
 body{
 	width: 100%;
@@ -16,6 +31,14 @@ body{
 		max-width: 100%;
 		height: auto;margin-top: 32px;
 	}
+	.logostyle{
+	position: relative;
+	margin-top: 85px;
+	z-index: 5;
+	right: -20px;
+	/*filter: drop-shadow(to top 2px grey);*/
+}
+
 }
 .header{
 	background-color: #ECF1E9;
@@ -53,12 +76,7 @@ body{
 	height: 45px;
 	padding-right: 1px;
 }
-@font-face {
-    src: url('encodesans-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
 .sansmedium{
 	font-family: 'encode_sansmedium';
 }
@@ -118,11 +136,7 @@ body{
 .mainconul li{
 	font-size: 15px;
 }
-@font-face {
-    src: url('fontsencodesans-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+
 .sanregularfont{
 	font-family: 'encode_sansregular';
 	text-align: justify;
@@ -174,12 +188,6 @@ body{
 }
 .bigfooter p{
 	padding-top: 5px;
-}
-@font-face {
-    src: url('fonts/encodesans-semibold-webfont.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-
 }
 .sanssemiboldl{
 	font-family: 'encode_sanssemibold';
