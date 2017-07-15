@@ -32,8 +32,8 @@ body{
 		height: auto;margin-top: 32px;
 	}
 	.logostyle{
-	position: relative;
-	margin-top: 85px;
+	position: absolute;
+	margin-top: 40px;
 	z-index: 5;
 	right: -20px;
 	/*filter: drop-shadow(to top 2px grey);*/
