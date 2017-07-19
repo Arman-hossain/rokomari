@@ -37,7 +37,11 @@ body{
 	z-index: 5;
 	right: -20px;
 	/*filter: drop-shadow(to top 2px grey);*/
-}
+	}
+	.img-center{
+	text-align: center;
+	padding: 40px 0px 0px 70px;
+	}
 
 }
 .header{
