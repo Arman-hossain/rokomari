@@ -39,8 +39,8 @@ body{
 	/*filter: drop-shadow(to top 2px grey);*/
 }
 	.img-center{
-		
-		padding: 40px 0px 0px 70px;
+	 text-align: center;
+   	 padding: 40px 0px 0px 80px;
 	}
 
 
